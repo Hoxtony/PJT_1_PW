@@ -1,0 +1,14 @@
+@media screen and (max-width: 992px) and 
+(min-width: 0px) {
+    .navbar{
+        font-size: 50px;
+    }
+
+    .navbar .container-fluid .navbar-toggler{
+        font-size: 50px;
+    }
+
+    .row .col-lg-6 .container{
+        font-size: 50px;
+    }
+}

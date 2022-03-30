@@ -4,49 +4,50 @@
     <head>
         <script src="../js/jquery.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="mobile.css">
         <title>Flyin Kicks - Os melhores e mais exclusivos Sneakers do Brasil!</title>
-    </head>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mynavbar">
-                <a class="navbar-brand" href="index.html">
-                    <img src="logo.png" alt="Logo" style="width:40px;" class="rounded-pill">
-                </a>
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Calendário</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Notícias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle me-3 text-white" href="#" role="button" data-bs-toggle="dropdown">Entrar</a>
-                        <ul class="dropdown-menu bg-dark">
-                            <li><a class="dropdown-item text-white" href="#">Login</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Cadastre-se</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2 bg-dark text-white" type="text" placeholder="O que você procura?">
-                    <button class="btn btn-outline-light me-2" type="button">Buscar</button>
-                </form>
-                <button class="btn me-1">
-                    <img src="../img/bag.png" alt="Bag" style="width: 30px">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="logo.png" alt="Logo" style="width:40px;" class="rounded-pill">
+                    </a>
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Calend&aacute;rio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle me-3 text-white" href="#" role="button" data-bs-toggle="dropdown">Entrar</a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item text-white" href="#">Login</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Cadastre-se</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2 bg-light text-white" type="text" placeholder="O que você procura?">
+                        <button class="btn btn-outline-light me-2" type="button"><i class="bi-search"></i></button>
+                    </form>
+                </div>
+                <div class="sacola">
+                    <button class="btn me-1 ms-auto"><i class="bi-bag" style="font-size: 3vh; color: white;"></i></button>
+                </div>
             </div>
-        </div>
-    </nav> 
+        </nav> 
+    </head>
     <body>
-
         <div id="demo" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
@@ -57,8 +58,8 @@
                 <div class="carousel-item active">
                     <img src="../img/bannerNike1.png" alt="Los Angeles" class="img-fluid" style="width: 100%">
                     <div class="carousel-caption">
-                        <h3>PROMO&CcedilÃO!</h3>
-                        <p>Todos os tênis da Nike com até 60% de desconto</p>
+                        <h2>PROMO&Ccedil;&Atilde;O!</h2>
+                        <p>Todos os t&ecirc;nis da Nike com até 60% de desconto</p>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -76,175 +77,184 @@
             </button>
         </div>
 
-        <div class="container-fluid bg-black text-white" align="center">
+        <div class="container-fluid bg-light text-black" align="center"><br/>
             <h1 class="display-4 text-center">Mais vendidos:</h1><br/>
             <div class="row">
                 <div class="col-sm">
-                    <div class="card bg-black btn btn-outline-light" style="width:200px">
-                        <img class="card-img-top" src="https://images.lojanike.com.br/500x500/produto/tenis-air-jordan-1-low-553558-612-1-11628865958.jpg" alt="Tenis" style="width:100%">
+                    <div class="card bg-light btn btn-outline-dark" style="width:200px">
+                        <img class="card-img-top btn" href="productPage.html" src="https://images.lojanike.com.br/500x500/produto/tenis-air-jordan-1-low-553558-612-1-11628865958.jpg" alt="Tenis" style="width:100%">
                         <div class="card-body">
-                            <h3 class="card-title text-white">Air Jordan 1 Low</h3>
-                            <h4 class="text-white">R$549,99</h4><br/>
-                            <a href="productPage.html" class="btn btn-primary float-center">Comprar</a>
+                            <h3 class="card-title text-black">Air Jordan 1 Low</h3>
+                            <h4 class="text-black">R$549,99</h4><br/>
+                            <div class="d-grid">
+                                <a href="" class="btn btn-dark btn-outline-light" type="button"><i class="bi-bag-plus"></i></button></a>
+                                <a href="productPage.html" class="btn btn-dark btn-outline-light">Comprar</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm">
-                    <div class="card bg-black btn btn-outline-light" style="width:200px">
+                    <div class="card bg-light btn btn-outline-dark" style="width:200px">
                         <img class="card-img-top" src="https://images.lojanike.com.br/500x500/produto/tenis-nike-dunk-high-se-masculino-DH0960-600-1-11624544557.jpg" alt="Tenis" style="width:100%">
                         <div class="card-body">
-                            <h3 class="card-title text-white">Nike Dunk High SE</h3>
-                            <h4 class="text-white">R$ 849,99</h4><br/>
-                            <a href="#" class="btn btn-primary float-center">Comprar</a>
+                            <h3 class="card-title text-black">Nike Dunk High SE</h3>
+                            <h4 class="text-black">R$ 849,99</h4><br/>
+                            <div class="d-grid">
+                                <a href="" class="btn btn-dark btn-outline-light" type="button"><i class="bi-bag-plus"></i></button></a>
+                                <a href="productPage.html" class="btn btn-dark btn-outline-light">Comprar</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm">
-                    <div class="card bg-black btn btn-outline-light" style="width:200px">
+                    <div class="card bg-light btn btn-outline-dark" style="width:200px">
                         <img class="card-img-top" src="https://images.lojanike.com.br/500x500/produto/tenis-nike-sportswear-air-max-97-se-masculino-DH1085-001-1-11636470683.jpg" alt="Tenis" style="width:100%">
                         <div class="card-body">
-                            <h3 class="card-title text-white">Nike Air Max 97 SE</h3>
-                            <h4 class="text-white">R$ 839,99</h4><br/>
-                            <a href="#" class="btn btn-primary float-center">Comprar</a>
+                            <h3 class="card-title text-black">Nike Air Max 97 SE</h3>
+                            <h4 class="text-black">R$ 839,99</h4><br/>
+                            <div class="d-grid">
+                                <a href="" class="btn btn-dark btn-outline-light" type="button"><i class="bi-bag-plus"></i></button></a>
+                                <a href="productPage.html" class="btn btn-dark btn-outline-light">Comprar</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm">
-                    <div class="card bg-black btn btn-outline-light" style="width:200px">
+                    <div class="card bg-light btn btn-outline-dark" style="width:200px">
                         <img class="card-img-top" src="https://images.lojanike.com.br/500x500/produto/tenis-nike-sportswear-air-max-95-se-masculino-DH2718-001-1-11636470704.jpg" alt="Tenis" style="width:100%">
                         <div class="card-body">
-                            <h3 class="card-title text-white">Nike Air Max 95 SE</h3>
-                            <h4 class="text-white">R$ 709,99</h4><br/>
-                            <a href="#" class="btn btn-primary float-center">Comprar</a>
+                            <h3 class="card-title text-black">Nike Air Max 95 SE</h3>
+                            <h4 class="text-black">R$ 709,99</h4><br/>
+                            <div class="d-grid">
+                                <a href="" class="btn btn-dark btn-outline-light" type="button"><i class="bi-bag-plus"></i></button></a>
+                                <a href="productPage.html" class="btn btn-dark btn-outline-light">Comprar</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid bg-black text-white" align="center">
+
+        <div class="container-fluid bg-light text-black" align="center">
             <h1 class="display-3 text-center">Lan&ccedilamentos:</h1><br/>
             <div class="row">
-            <div class="col-sm">
-                <div class="card bg-black btn btn-outline-light" style="width:200px">
-                    <img class="card-img-top" src="https://droper-media.s3.amazonaws.com/682021193510156.webp" alt="Tenis" style="width:100%">
-                    <div class="card-body">
-                        <h3 class="card-title text-white">Yeezy Foam Runner MX Cream Clay </h3>
-                        <h4 class="text-white"> R$ 2400,00</h4><br/>
-                        <a href="#" class="btn btn-primary float-center">Comprar</a>
+                <div class="col-sm">
+                    <div class="card bg-light btn btn-outline-dark" style="width:200px">
+                        <img class="card-img-top" src="https://droper-media.s3.amazonaws.com/682021193510156.webp" alt="Tenis" style="width:100%">
+                        <div class="card-body">
+                            <h3 class="card-title text-black">Yeezy Foam Runner MX Cream Clay </h3>
+                            <h4 class="text-black"> R$ 2400,00</h4><br/>
+                            <div class="d-grid">
+                                <a href="" class="btn btn-dark btn-outline-light" type="button"><i class="bi-bag-plus"></i></button></a>
+                                <a href="productPage.html" class="btn btn-dark btn-outline-light">Comprar</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm">
-                <div class="card bg-black btn btn-outline-light" style="width:200px">
-                    <img class="card-img-top" src="https://droper-media.us-southeast-1.linodeobjects.com/832022174852476.webp" alt="Tenis" style="width:100%">
-                    <div class="card-body">
-                        <h3 class="card-title text-white">Concepts x Nike Air Max 1 Mellow </h3>
-                        <h4 class="text-white">R$ 2499,99</h4><br/>
-                        <a href="#" class="btn btn-primary float-center">Comprar</a>
+                <div class="col-sm">
+                    <div class="card bg-light btn btn-outline-dark" style="width:200px">
+                        <img class="card-img-top" src="https://droper-media.us-southeast-1.linodeobjects.com/832022174852476.webp" alt="Tenis" style="width:100%">
+                        <div class="card-body">
+                            <h3 class="card-title text-black">Concepts x Nike Air Max 1 Mellow </h3>
+                            <h4 class="text-black">R$ 2499,99</h4><br/>
+                            <div class="d-grid">
+                                <a href="" class="btn btn-dark btn-outline-light" type="button"><i class="bi-bag-plus"></i></button></a>
+                                <a href="productPage.html" class="btn btn-dark btn-outline-light">Comprar</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm">
-                <div class="card bg-black btn btn-outline-light" style="width:200px">
-                    <img class="card-img-top" src="https://droper-media.us-southeast-1.linodeobjects.com/1532022143211535.webp" alt="Tenis" style="width:100%">
-                    <div class="card-body">
-                        <h3 class="card-title text-white">Air Jordan 1 KO Paisley Black </h3>
-                        <h4 class="text-white">R$ 1420,00</h4><br/>
-                        <a href="#" class="btn btn-primary float-center">Comprar</a>
+                <div class="col-sm">
+                    <div class="card bg-light btn btn-outline-dark" style="width:200px">
+                        <img class="card-img-top" src="https://droper-media.us-southeast-1.linodeobjects.com/1532022143211535.webp" alt="Tenis" style="width:100%">
+                        <div class="card-body">
+                            <h3 class="card-title text-black">Air Jordan 1 KO Paisley Black </h3>
+                            <h4 class="text-black">R$ 1420,00</h4><br/>
+                            <div class="d-grid">
+                                <a href="" class="btn btn-dark btn-outline-light" type="button"><i class="bi-bag-plus"></i></button></a>
+                                <a href="productPage.html" class="btn btn-dark btn-outline-light">Comprar</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm">
-                <div class="card bg-black btn btn-outline-light" style="width:200px">
-                    <img class="card-img-top" src="https://droper-media.us-southeast-1.linodeobjects.com/932022192325909.webp" alt="Tenis" style="width:100%">
-                    <div class="card-body">
-                        <h3 class="card-title text-white">Air Jordan 1 High Rebellionaire </h3>
-                        <h4 class="text-white">R$ 1949,00</h4><br/>
-                        <a href="#" class="btn btn-primary float-center">Comprar</a>
+                <div class="col-sm">
+                    <div class="card bg-light btn btn-outline-dark" style="width:200px">
+                        <img class="card-img-top" src="https://droper-media.us-southeast-1.linodeobjects.com/932022192325909.webp" alt="Tenis" style="width:100%">
+                        <div class="card-body">
+                            <h3 class="card-title text-black">Air Jordan 1 High Rebellionaire </h3>
+                            <h4 class="text-black">R$ 1949,00</h4><br/>
+                            <div class="d-grid">
+                                <a href="" class="btn btn-dark btn-outline-light" type="button"><i class="bi-bag-plus"></i></button></a>
+                                <a href="productPage.html" class="btn btn-dark btn-outline-light">Comprar</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div>
-            <div class="container-fluid bg-black text-white" align="center">
-                <h1 class="display-5 text-center">Procure por marca:</h1>
-                <div class="row">
-                    <div class="col-md">
+        <br/>
+        <div class="container-fluid bg-black text-white" align="center">
+            <h1 class="display-5 text-center">Procure por marca:</h1>
+            <div class="row">
+                <div class="col-sm">
                     <div class="card bg-black" style="width:80px">
-                        <img src="https://service.cataloko.com/static/site/marcas/jordan.png" alt="Marca" style="width:80px;" class="ms-auto rounded btn">
+                        <img src="https://service.cataloko.com/static/site/marcas/jordan.png" alt="Marca" style="width:80px;" class="ms-auto btn">
                     </div>
                 </div>
-                <div class="col-md">
+                <div class="col-sm">
                     <div class="card bg-black" style="width:80px">
-                        <img src="https://service.cataloko.com/static/site/marcas/yzy.png" alt="Marca" style="width:80px;" class="ms-auto rounded-circle btn">
+                        <img src="https://service.cataloko.com/static/site/marcas/yzy.png" alt="Marca" style="width:80px;" class="btn ms-auto">
                     </div>
                 </div>
-                <div class="col-md">
+                <div class="col-sm">
                     <div class="card bg-black" style="width:80px">
-                        <img src="https://service.cataloko.com/static/site/marcas/nike.png" alt="Marca" style="width:80px;" class="ms-auto rounded-circle btn">
+                        <img src="https://service.cataloko.com/static/site/marcas/nike.png" alt="Marca" style="width:80px;" class="btn ms-auto">
                     </div>
                 </div>
-                <div class="col-md">
+                <div class="col-sm">
                     <div class="card bg-black" style="width:80px">
-                        <img src="https://service.cataloko.com/static/site/marcas/adidas.png" alt="Marca" style="width:80px;" class="ms-auto rounded-circle btn">
+                        <img src="https://service.cataloko.com/static/site/marcas/adidas.png" alt="Marca" style="width:80px;" class="btn ms-auto">
                     </div>
                 </div>
-                <div class="col-md">
+                <div class="col-sm">
                     <div class="card bg-black" style="width:80px">
-                        <img src="https://service.cataloko.com/static/site/marcas/offwhite.png" alt="Marca" style="width:80px;" class="ms-auto rounded-circle btn">
+                        <img src="https://service.cataloko.com/static/site/marcas/offwhite.png" alt="Marca" style="width:80px;" class="btn ms-auto">
                     </div>
                 </div>
-                <div class="col-md">
+                <div class="col-sm">
                     <div class="card bg-black" style="width:80px">
-                        <img src="https://service.cataloko.com/static/site/marcas/bape.jpg" alt="Marca" style="width:80px;" class="ms-auto rounded-circle btn">
+                        <img src="https://service.cataloko.com/static/site/marcas/bape.jpg" alt="Marca" style="width:80px;" class="btn ms-auto">
                     </div>
                 </div>
-                <div class="col-md">
+                <div class="col-sm">
                     <div class="card bg-black" style="width:80px">
-                        <img src="https://service.cataloko.com/static/site/marcas/lv.jpg" alt="Marca" style="width:80px;" class="ms-auto rounded-circle btn">
+                        <img src="https://service.cataloko.com/static/site/marcas/lv.jpg" alt="Marca" style="width:80px;" class="btn ms-auto">
                 </div>
-            </div><br/>
+            </div>
         </div>
+        <br/>
         <footer id="myFooter">
-            <div class="container-fluid">
+            <div class="container" align="center">
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <h5>Inicio</h5>
                         <ul>
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">Cursos</a></li>
-                            <li><a href="#">Downloads</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-3">
-                        <h5>Sobre nós</h5>
+                    <div class="col-sm-4">
+                        <h5>Sobre n&oacute;s</h5>
                         <ul>
-                            <li><a href="#">Informações da Empresa</a></li>
-                            <li><a href="#">Contato</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Informa&ccedil;&otilde;es da Empresa</a></li>
+                            <li><a href="contact.html">Contato</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <h5>Suporte</h5>
                         <ul>
                             <li><a href="#">FAQ</a></li>
                             <li><a href="#">Telefones</a></li>
-                            <li><a href="#">Chat</a></li>
                         </ul>
-                    </div>
-                    <div class="col-sm-3 info">
-                        <h5>Informações</h5>
-                        <p> Text </p>
-                    </div>
-                </div>
-            </div>
-            <div class="second-bar bg-dark">
-               <div class="container-fluid">
-                    <h2 class="logo"><a href="#"> LOGO </a></h2>
-                    <div class="social-icons">
-                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
