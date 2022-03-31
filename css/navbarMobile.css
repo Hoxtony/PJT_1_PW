@@ -9,7 +9,6 @@
         font-size: 40px;
     }
     .sacola1{
-        font-size: 50px;
         display: inline;
     }
 
@@ -20,6 +19,15 @@
     .logo{
         font-size: 50px;
         align-items: center;
+    }
+
+    
+    .banner{
+        display: none;
+    }
+
+    .pesquisa{
+        margin-top: 100px;
     }
 
     #myFooter{
