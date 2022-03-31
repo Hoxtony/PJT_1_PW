@@ -1,14 +1,77 @@
 @media screen and (max-width: 992px) and 
 (min-width: 0px) {
+    
     .navbar{
         font-size: 50px;
     }
 
-    .navbar .container-fluid .navbar-toggler{
+    .navbar-toggler{
+        font-size: 40px;
+    }
+    .sacola1{
+        font-size: 40px;
+        color: white;
+        display: inline;
+    }
+
+    .sacola2{
+        display: none;
+    }
+
+    .logo{
+        font-size: 50px;
+        align-items: center;
+    }
+
+    .banner{
+        display: none;
+    }
+
+    .titulo{
+        font-size: 100px;
+    }
+    
+    .preco{
         font-size: 50px;
     }
 
-    .row .col-lg-6 .container{
+    .descProduto{
         font-size: 50px;
+    }
+
+    .tamanho{
+        font-size: 50px;
+    }
+
+    .botaoAdd{
+        font-size: 50px;
+    }
+
+    .botaoCompra{
+        font-size: 50px;
+    }
+
+    .bold{
+        font-size: 30px;
+    }
+
+    .descricao{
+        font-size: 30px;
+    }
+
+    .compreTbm{
+        display: none;
+    }
+
+    #myFooter{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 3840px) and 
+(min-width: 993px) {
+    .sacola1{
+        display: none;
     }
 }

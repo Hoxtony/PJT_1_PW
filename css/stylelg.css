@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,body{
-background-image: url('https://www.background-pictures.com/wp-content/uploads/2021/07/dark-background-0169-2048x1280.jpg');
+background-image:url('https://img.freepik.com/fotos-gratis/tenis-de-homens-negros-em-fundo-amarelo-conceito-de-blog-ou-revista-de-moda-sapatos-masculinos-tenis-da-moda-moda-estilo-de-vida-brincar-plano-de-fundo-minimo-do-espaco-da-copia-da-vista-superior_253362-11792.jpg');
 background-size: cover;
 background-repeat: no-repeat;
 height: 100%;
@@ -15,17 +15,36 @@ align-content: center;
 
 .card{
 height: 370px;
-margin-top: auto;
-margin-bottom: auto;
+margin-top: 200px;
+margin-bottom: 200px;
 width: 400px;
-background-color: rgba(0, 0, 0, 0.582) !important;
-box-shadow: 0 0 0 2px rgb(247, 247, 247)
+background-color: rgb(0, 0, 0) !important;
+box-shadow: 0 0 0 2px rgb(247, 247, 247);
+border-radius: 10px
 }
 
-.social_icon span{
+/*.social_icon span{
 font-size: 60px;
 margin-left: 10px;
-color: #FFC312;
+color: #6cf100;
+}*/
+
+.facebook span{
+	font-size: 60px;
+	margin-left: 10px;
+	color: #4267B2;
+}
+
+.google span{
+	font-size: 60px;
+	margin-left: 10px;
+	color: #DB4437;
+}
+
+.twitter span{
+	font-size: 60px;
+	margin-left: 10px;
+	color: #1DA1F2;
 }
 
 .social_icon span:hover{
