@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,body{
-background-image:url('https://img.freepik.com/fotos-gratis/tenis-de-homens-negros-em-fundo-amarelo-conceito-de-blog-ou-revista-de-moda-sapatos-masculinos-tenis-da-moda-moda-estilo-de-vida-brincar-plano-de-fundo-minimo-do-espaco-da-copia-da-vista-superior_253362-11792.jpg');
+background-image:url('https://i.imgur.com/7EwU3oQ.jpg');
 background-size: cover;
 background-repeat: no-repeat;
 height: 100%;
-font-family: 'Numans', sans-serif;
 }
 
 .container{
@@ -64,7 +63,7 @@ top: -45px;
 
 .input-group-prepend span{
 width: 50px;
-background-color: #FFC312;
+background-color: #acacac;
 color: black;
 border:0 !important;
 }
@@ -89,7 +88,7 @@ margin-right: 5px;
 
 .login_btn{
 color: black;
-background-color: #FFC312;
+background-color: #ffffff;
 width: 100px;
 }
 
@@ -100,7 +99,7 @@ background-color: white;
 
 .register_btn{
 	color: black;
-	background-color: #FFC312;
+	background-color: #ffffff;
 	width: 100px;
 	}
 .register_btn:hover{
@@ -109,7 +108,7 @@ background-color: white;
 	}
 .reset_btn{
 		color: black;
-		background-color: #FFC312;
+		background-color: #acacac;
 		width: 100px;
 		}
 .reset_btn:hover{
